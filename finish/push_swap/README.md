@@ -26,4 +26,4 @@ Nous disposions des opérations suivante :
 
 exemple :
 
-![push_swap](/images/push_swap1.png)
+![push_swap](./images/push_swap1.png)
