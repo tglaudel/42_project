@@ -1,4 +1,4 @@
-LIBFT
+# LIBFT
 
 Ce projet a pour but de coder en C une bibliothèque de fonctions
 usuelles utilisable dans tous mes projets.
