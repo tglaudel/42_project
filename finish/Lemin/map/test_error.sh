@@ -1,0 +1,10 @@
+echo "No ants"
+./lem-in < map/no_ants.txt
+echo "No room"
+./lem-in < map/no_room.txt
+echo "No tube"
+./lem-in < map/no_tube.txt
+echo "No start_end"
+./lem-in < map/no_start_end.txt
+echo "No path"
+./lem-in < map/no_path.txt
