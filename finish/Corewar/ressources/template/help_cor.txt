@@ -1,0 +1,31 @@
+############################################################################
+#  _____                                     _          _                  #
+# /  __ \                                   | |        | |                 #
+# | /  \/ ___  _ __ _____      ____ _ _ __  | |__   ___| |_ __   ___ _ __  #
+# | |    / _ \| '__/ _ \ \ /\ / / _` | '__| | '_ \ / _ \ | '_ \ / _ \ '__| #
+# | \__/\ (_) | | |  __/\ V  V / (_| | |    | | | |  __/ | |_) |  __/ |    #
+#  \____/\___/|_|  \___| \_/\_/ \__,_|_|    |_| |_|\___|_| .__/ \___|_|    #
+#                                                        | |               #
+#                                                        |_|               #
+############################################################################
+
+VM USAGE : ./corewar
+
+Usage: ./corewar [-d N -v N -c | -n N <champion1.cor> <...>
+#### TEXT OUTPUT MODE ##########################################################
+    -d N		: Dumps memory after N cycles then exits
+    -v N		: Verbosity levels, can be added together to enable several
+                	- 0 : Show only essentials
+                	- 1 : Show lives
+                	- 2 : Show cycles
+                	- 4 : Show operations (Params are NOT litteral ...)
+                	- 8 : Show deaths
+                	- 16 : Show PC movements (Except for jumps)
+    -n N		: change the name of the champs
+					It might be a number.
+#### NCURSES MODE ##############################################################
+    -c			: ncurses mode
+					- KEY_UP : start / pause
+					- KEY_LEFT : speed--
+					- KEY_RIGHT : speed++
+################################################################################
