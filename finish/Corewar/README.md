@@ -44,3 +44,9 @@ interface graphique NCURSES :
 ![vm1](./images/corewar_vm_1.png)
 
 ![vm2](./images/corewar_vm_2.png)
+
+à droite :
+* Les joueurs dans l'arène.
+  * le last_cycle_live.
+  * le nombre de live.
+  * 
