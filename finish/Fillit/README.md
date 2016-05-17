@@ -9,4 +9,4 @@ Il s’agira d’agencer des Tetriminos entre eux et de déterminer le plus peti
 
 Un Tetriminos est une figure géométrique formée de 4 blocs que vous connaissez grâce au célèbre jeu Tetris.
 
-![GitHub Logo](/images/tetri1.png)
+![tetri1](./images/tetri1.png)
