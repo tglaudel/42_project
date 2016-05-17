@@ -6,7 +6,7 @@
 /*   By: tglaudel <tglaudel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/12 11:26:27 by tglaudel          #+#    #+#             */
-/*   Updated: 2015/12/21 17:54:43 by tglaudel         ###   ########.fr       */
+/*   Updated: 2016/05/17 15:56:52 by tglaudel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,9 @@ void	ft_print_tab(char **tab, int lt)
 		j = 0;
 		while (j < lt - 1)
 		{
+			ft_color(tab[i][j]);
 			ft_putchar(tab[i][j]);
+			ft_color(12);
 			j++;
 		}
 		ft_putchar('\n');
