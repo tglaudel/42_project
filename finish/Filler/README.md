@@ -12,4 +12,4 @@ La stratégie adopté était la suivante :
 
 les joueurs sont représentés par O et X.
 
-![filler 1](/images/filler1.png)  ![filler 2](/images/filler2.png) ![filler 3](/images/filler3.png)
+![filler 1](./images/filler1.png)  ![filler 2](./images/filler2.png) ![filler 3](./images/filler3.png)
