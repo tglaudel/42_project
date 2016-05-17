@@ -1,4 +1,4 @@
-ft_printf
+# ft_printf
 
 Le but du projet était de recoder la fonction "printf".
 
