@@ -47,6 +47,16 @@ interface graphique NCURSES :
 
 à droite :
 * Les joueurs dans l'arène.
-  * le last_cycle_live.
+  * le nom du joueur.
+  * le last_cycle -> dernier cycle ou le champion à comptabilisé un live.
   * le nombre de live.
-  * 
+* Les informations de jeux
+  * Cycle_to_die.
+  * Cycle_delta.
+  * Max_check.
+  * Nb_live.
+ 
+à gauche :
+* L'arène.
+* Les champions, de couleurs differentes.
+* Les processus.
